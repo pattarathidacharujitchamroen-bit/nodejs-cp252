@@ -1,7 +1,9 @@
 const tags = [];
+let tagsArray = [];
 
 const getTags = (req, res) => {
-  res.json({ tags });
+  tagsArray.push(tagsArray.length);
+  res.json({ "tags" :tagsArray });
 };
 
 // Implement other controllers related to tags
